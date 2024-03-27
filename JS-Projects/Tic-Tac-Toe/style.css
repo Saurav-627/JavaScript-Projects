@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #afc1ff;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0 0 5px 1.5px #000;
+    font-size: 10vmin;
+    color: #00b300;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.reset-btn{
+    padding: 1rem;
+    font: 1.2rem;
+    background-color: bisque;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+#new-btn{
+    padding: 1rem;
+    font: 1.2rem;
+    background-color: bisque;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+#msg{
+    color: brown;
+    font-size: 1.8rem;
+}
+.msg-container{
+    height: 30vmin;
+}
+
+.hide{
+    display: none;
+}
